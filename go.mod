@@ -2,6 +2,8 @@ module github.com/ti-mo/conntrack
 
 go 1.12
 
+replace github.com/ti-mo/netfilter => github.com/zjj2wry/netfilter v0.3.1
+
 require (
 	github.com/google/go-cmp v0.3.1
 	github.com/mdlayher/netlink v1.0.1-0.20191210152442-a1644773bc99
